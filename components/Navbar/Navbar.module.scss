@@ -18,9 +18,10 @@
     align-items: center;
     justify-content: center;
     z-index: 5;
+    cursor:default;
 
-    &:hover{
-      .dropdown{
+    &:hover {
+      .dropdown {
         visibility: visible;
       }
     }
@@ -38,7 +39,7 @@
       width: 15%;
       box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
 
-      a{
+      a {
         padding-top: 30px;
       }
     }
