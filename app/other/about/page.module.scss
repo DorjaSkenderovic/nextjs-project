@@ -1,0 +1,33 @@
+.about {
+  padding-top: 3rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    height: 100%;
+    padding-top: 5rem;
+    flex-direction: column;
+  }
+
+  .image {
+    width: 50%;
+    text-align: center;
+  
+  }
+  .info {
+    width: 50%;
+    text-align: left;
+
+    h1,h3,p{
+        margin-bottom: 5px;
+    }
+
+    p{
+        width: 90%;
+        color: #0D1623;
+    }
+  }
+}
