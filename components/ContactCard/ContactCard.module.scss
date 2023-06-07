@@ -1,8 +1,6 @@
 .card {
     background: rgba(30, 47, 70, 0.6);
     border-radius: 30px;
-    width: 25%;
-    height: 60%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -27,6 +25,6 @@
     }
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }

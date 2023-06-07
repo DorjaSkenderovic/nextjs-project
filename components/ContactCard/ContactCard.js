@@ -2,8 +2,10 @@ import Image from "next/legacy/image";
 import styles from "./ContactCard.module.scss";
 
 const ContactCard = (props) => {
+
+    const className = props.className || "";
     return (
-        <div className={styles.card}>
+        <div className={`${styles.card} ${className}`}>
             <div className={styles.image}>
                 <Image
                     src={`/assets/${props.image}`}

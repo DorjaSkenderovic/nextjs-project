@@ -4,12 +4,18 @@ import AboutImage from "../../../public/assets/about.png"
 const About = () => {
     return (
         <div className={styles.about}>
+            
             <div className={styles.image}>
                 <Image src={AboutImage} alt="about" />
             </div>
+
             <div className={styles.info}>
                 <h1>Zadatak</h1>
                 <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+
+                <div className={styles.lines}>
+                    <hr className={styles.mainline} /><hr className={styles.sideline} />
+                </div>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit
@@ -36,7 +42,9 @@ const About = () => {
                     quis velit. Praesent enim augue, congue nec bibendum ut, laoreet
                     maximus nulla.
                 </p>
+
             </div>
+
         </div>
     );
 };
