@@ -1,4 +1,3 @@
-import React from "react";
 import ContactCard from "@/components/ContactCard/ContactCard";
 import styles from "./page.module.scss";
 const contact = () => {

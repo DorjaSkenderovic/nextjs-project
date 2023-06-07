@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/legacy/image";
 import styles from "./ContactCard.module.scss";
 
