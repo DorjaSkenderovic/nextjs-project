@@ -1,15 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
-
+import AboutImage from "../../../public/assets/about.png"
 const About = () => {
     return (
         <div className={styles.about}>
             <div className={styles.image}>
-                <Image src="/assets/about.png" width={550} height={400} alt="about" />
+                <Image src={AboutImage} alt="about" />
             </div>
             <div className={styles.info}>
                 <h1>Zadatak</h1>
                 <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit
                     amet nulla interdum, vestibulum turpis nec, vehicula enim. Vestibulum
