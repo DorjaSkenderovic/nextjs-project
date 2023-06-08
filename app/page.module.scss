@@ -17,4 +17,13 @@
     height: 0.5vh;
     background-color: #0d1623;
   }
+
+  @media screen and (max-width: 800px) {
+    .row{
+      display: flex;
+      flex-direction: column;
+      gap: 3vh;
+    }
+    
+  }
 }
