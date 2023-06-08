@@ -2,12 +2,25 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    padding-top: 3rem;
+    padding-top: 12vh;
     justify-content: space-around;
     align-items: center;
 
-    .card{
+    .card {
         width: 28%;
         height: 60%;
+    }
+
+    @media screen and (max-width: 800px) {
+        height: 100%;
+        flex-direction: column;
+        gap: 3vh;
+        .card{
+            width: 80%;
+            z-index: -1;
+            padding: 2vh;
+
+        }
+
     }
 }
