@@ -4,15 +4,16 @@ import Image from "next/image";
 const Card = (props) => {
   return (
     <div className={styles.card}>
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <Image
         src={props.image}
-        width={350}
-        height={250}
         alt={props.title}
         className={styles.image}
+        priority={true}
       />
-      <p className={styles.description}>{props.description}</p>
+      <div>
+        <p className={styles.description}>{props.description}</p>
+      </div>
     </div>
   );
 };
