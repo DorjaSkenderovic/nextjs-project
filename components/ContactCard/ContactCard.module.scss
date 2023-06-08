@@ -7,12 +7,12 @@
     justify-content: space-around;
     align-items: center;
     transition: transform .2s;
-
+    
     .image {
         width: 35%;
+        text-align: center;
 
-        p {
-            font-size: 3vw;
+        h2 {
             font-weight: 700;
             padding-top: 2vh;
         }
@@ -22,7 +22,6 @@
         font-size: 1.7vw;
         font-weight: 700;
         text-align: center;
-        padding-bottom: 1vh;
     }
 
     &:hover {

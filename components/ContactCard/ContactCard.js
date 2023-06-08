@@ -11,8 +11,9 @@ const ContactCard = (props) => {
                     src={props.image}
                     layout="responsive"
                     alt={props.title}
+                    priority={true}
                 />
-                <p>{props.title}</p>
+                <h2>{props.title}</h2>
             </div>
             <div>
                 {props.contact.split("\n").map((paragraph) => {
