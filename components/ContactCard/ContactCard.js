@@ -8,10 +8,8 @@ const ContactCard = (props) => {
         <div className={`${styles.card} ${className}`}>
             <div className={styles.image}>
                 <Image
-                    src={`/assets/${props.image}`}
+                    src={props.image}
                     layout="responsive"
-                    width={100}
-                    height={100}
                     alt={props.title}
                 />
                 <p>{props.title}</p>

@@ -1,6 +1,6 @@
 .card {
     background: rgba(30, 47, 70, 0.6);
-    border-radius: 30px;
+    border-radius: 2vw;
     color: white;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     transition: transform .2s;
 
     .image {
-        width: 40%;
-        text-align: center;
+        width: 35%;
 
         p {
-            font-size: 30px;
+            font-size: 3vw;
             font-weight: 700;
+            padding-top: 2vh;
         }
     }
 
     p {
-        font-size: 16px;
+        font-size: 1.7vw;
         font-weight: 700;
         text-align: center;
     }
