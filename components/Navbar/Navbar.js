@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className={styles.other}>
         Ostalo
         <div className={styles.dropdown}>
-          <Link href="/other/about">O nama</Link>
+          <Link href="/other/about"> O nama</Link>
           <Link href="/other/contact">Kontakt</Link>
         </div>
       </div>
