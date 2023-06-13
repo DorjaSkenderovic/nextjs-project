@@ -7,7 +7,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        object-fit: contain;
+        text-align: center;
 
 
         .head {
@@ -19,7 +19,8 @@
 
 
             .image {
-                min-width: 100px;
+                max-width: 200px;
+                width: 35%;
             }
 
             h2 {

@@ -17,6 +17,7 @@ const ContactCard = (props) => {
                 </div>
                 <h2>{props.title}</h2>
             </div>
+            
             <div className={styles.infoData}>
                 {props.contact.split("\n").map((paragraph) => {
                     return <p>{paragraph}</p>;
