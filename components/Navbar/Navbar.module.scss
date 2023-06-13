@@ -21,8 +21,8 @@
     justify-content: center;
     z-index: 5;
     padding: 32px;
-
     cursor: default;
+    position: relative;
 
     &:hover {
       .dropdown {
