@@ -48,7 +48,7 @@
             gap: 0.6vw;
 
             .mainline {
-                width: 7.5vw;
+                width: 6em;
                 height: 0.8vh;
                 background: rgba(239, 114, 19, 0.5);
                 border: none;
@@ -57,7 +57,7 @@
 
             .sideline {
                 background: rgba(239, 114, 19, 0.3);
-                width: 2.5vw;
+                width: 2em;
                 height: 0.8vh;
                 border: none;
                 border-radius: 3px;
@@ -68,7 +68,7 @@
     @media screen and (max-width: 800px) {
         height: 100%;
         width: 100%;
-        padding-top: 12vh;
+        padding-top: 2rem;
         display: block;
         text-align: center;
 
