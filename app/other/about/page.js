@@ -11,8 +11,7 @@ const About = () => {
 
             <div className={styles.info}>
                 <div className={styles.title}>
-                <h1 >Zadatak</h1>
-                <hr />
+                <h1 >Zadatak |</h1>
             </div>
 
             <h3>Lorem ipsum dolor sit amet, consectetur</h3>
