@@ -3,9 +3,7 @@
     border-radius: 2vw;
     color: white;
     padding: 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: block;
     text-align: center;
     transition: transform 0.2s;
 
@@ -14,16 +12,14 @@
     }
 
     .head {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
+        display: block;
 
         .image {
-            max-width: 200px;
+            max-width: 250px;
+            min-width: 150px;
+            max-height: 250px;
             width: 35%;
+            margin: 0 auto;
         }
 
         h2 {
@@ -33,11 +29,15 @@
         }
     }
 
+.infoData{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+
     p {
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: 700;
-        text-align: center;
     }
-
-
+}
 }
