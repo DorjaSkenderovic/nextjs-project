@@ -46,10 +46,10 @@
         .lines {
             display: flex;
             gap: 0.6vw;
+            height: 0.3em;
 
             .mainline {
                 width: 6em;
-                height: 0.8vh;
                 background: rgba(239, 114, 19, 0.5);
                 border: none;
                 border-radius: 3px;
@@ -58,7 +58,6 @@
             .sideline {
                 background: rgba(239, 114, 19, 0.3);
                 width: 2em;
-                height: 0.8vh;
                 border: none;
                 border-radius: 3px;
             }
